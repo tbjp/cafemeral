@@ -11,6 +11,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --beige: #dfdfd5;
+  --rose: #d6c8d9;
+  --emerald: #8bc8b6;
+  --beige-dark: #a7a79d;
+  --rose-dark: #988d9a;
+  --emerald-dark: #6a9a8c;
 }
 
 a {
@@ -65,4 +72,33 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.bg-beige {
+  background-color: #dfdfd5;
+}
+
+.bg-rose {
+  background-color: #4b464c;
+}
+
+.bg-emerald {
+  background-color: #8bc8b6;
+}
+
+.btn-outline-custom {
+  border-color: var(--emerald);
+  color: var(--emerald);
+}
+
+.btn-custom {
+  background-color: var(--emerald);
+  border-color: var(--emerald);
+  color: #101010;
+}
+
+.btn-custom:hover {
+  background-color: var(--emerald-dark);
+  border-color: var(--emerald-dark);
+  color: #ffffff;
 }

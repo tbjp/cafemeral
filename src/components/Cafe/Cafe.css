@@ -1,7 +1,7 @@
 .cafe-card {
-    height: 100%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+  height: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .cafe-card > img {
@@ -10,7 +10,6 @@
   object-fit: cover;
   border-radius: 4px 4px 0 0;
 }
-
 
 .cafe-card > div {
   display: flex;
@@ -42,8 +41,11 @@
 
 .cafe-card > div > a {
   padding: 8px;
-  background-color: #198753;
-  color: white;
+  background-color: var(--emerald);
   text-align: center;
   border-radius: 4px;
+}
+
+.cafe-card > div > a:hover {
+  background-color: var(--emerald-dark);
 }
